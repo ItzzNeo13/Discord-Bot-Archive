@@ -72,7 +72,7 @@ A] The bot might be offline or might be experiencing rate-limits from Discord. I
 
 1] Will the bot be open-sourced?
 
--> Currently we have no plans of doing so. And if plan on open sourcing the bot we will update about it in Support Server.
+-> After code archive, it is open-sourced.
 
 ---------------
 
