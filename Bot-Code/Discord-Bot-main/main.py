@@ -16,7 +16,7 @@ client.remove_command('help')
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.idle,activity=discord.Activity(type=discord.ActivityType.watching, name="my end approaching"))
+    await client.change_presence(status=discord.Status.idle,activity=discord.Activity(type=discord.ActivityType.watching, name="Hacked Accounts Spam | /help (Slash Command)"))
     print("Logged in successfully as Url Reaper#8450")
   
 # Commands -
@@ -38,6 +38,8 @@ async def ping(ctx):
 async def on_message(message):
     msg_content = message.content.lower()
 
+    # Spam Words Storage
+    
     spamWord = ['https://discords', 'https://discrde', 'https://dlscords','https://steamdiscord', 'https://d!scord', 
     'https://steamdiscrod', 'https://clickdlscord-nitro', 'https://giftdlscorcl', 'https://dlsccrd', 'https://dissord', 
     'https://dlscord-game', 'https://shopdisccordapp', 'https://giftdiscod', 'https://discrods', 'https://discrods', 
@@ -162,7 +164,6 @@ async def ticket(ctx):
 
     #await ctx.send(embed=embed)
 
-# Discord Support Command (Slash) -
 
 
 # Support Command (Normal) -
@@ -350,7 +351,6 @@ async def remove(ctx):
     
     #await ctx.send(embed=embed)
 
-# Remove Command (Slash) -
 
 # Token -
 try:
