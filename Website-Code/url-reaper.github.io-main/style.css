@@ -1,0 +1,144 @@
+body{
+    background-color: #111827;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    display: grid;
+
+    grid-template-columns: 250px auto;
+}
+
+/* .name{
+    background-color: lightcoral;
+} */
+.name h2{
+    text-align: center;
+    color: snow;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .support{
+    background-color: lightcyan;
+} */
+.support ul li{
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: 11px;
+    color: #adb5bd;
+    font-family: 'Raleway', sans-serif;
+}
+.support ul li:hover{
+    color: snow;
+}
+.support ul{
+    margin-left: 330px;
+}
+
+/* *********************************** */
+
+.head{
+    width: 100%;
+    height: 90px;
+    display: grid;
+
+    grid-template-rows: 50px auto;
+}
+
+/* .txt{
+    background-color: lightgreen;
+} */
+.txt h2{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .botFeat{
+    background-color: lightpink;
+} */
+.botFeat h5{
+    color: #adb5bd;
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ******************************* */
+
+.body{
+    height: 300px;
+    display: grid;
+
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 50px 50px 50px 50px ;
+    grid-gap: 10px;
+    margin-left: 220px;
+}
+.body li{
+    list-style-image: url('ico.png');
+    color: snow;
+    size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.body li h4{
+    margin-left: 60px;
+    margin-top: -25px;
+    font-family: 'Raleway', sans-serif;
+}
+#h4{
+    margin-top: -33px;
+}
+
+
+
+.o{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.g{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.ge{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.e{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.r{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.a{
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+
+/* **************************************** */
+
+.bottom{
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 60px auto;
+}
+
+#dandi{
+    margin-top: 5px;
+    margin-left: 50px;
+    color: lightgray;
+}
+
+.creds p{
+    color: lightgray;
+    font-family: 'Raleway', sans-serif;
+}
+
+.creds p a {
+text-decoration: none;
+}
